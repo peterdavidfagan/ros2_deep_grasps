@@ -11,7 +11,10 @@
 
   <depend>backward_ros</depend>
   <depend>generate_parameter_library</depend>
-  
+
+  <exec_depend>ros2_deep_grasps_interfaces</exec_depend>
+  <exec_depend>onnxruntime</exec_depend>	
+  <exec_depend>onnx</exec_depend>	
   <exec_depend>rviz2</exec_depend>
   <exec_depend>xacro</exec_depend>
   <exec_depend>urdf</exec_depend>
