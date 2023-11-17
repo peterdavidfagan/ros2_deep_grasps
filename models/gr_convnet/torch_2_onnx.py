@@ -25,7 +25,7 @@ if __name__ == "__main__":
     model = torch.load(args.model)
 
     # generate dummy input
-    dummy_input = torch.randn(1, 4, 640, 480)
+    dummy_input = torch.randn(1, 4, 360, 640)
     dummy_input = dummy_input.to(device)
 
     # Convert to ONNX

@@ -12,7 +12,7 @@ setup(
      ('share/' + package_name, ['package.xml']),
      #('share/' + package_name + '/config', ['config/camera_calibration.yaml']),
    ],
- install_requires=['setuptools'],
+ install_requires=['setuptools', 'onnxruntime'],
  zip_safe=True,
  maintainer='Peter David Fagan',
  maintainer_email='peterdavidfagan@gmail.com',
