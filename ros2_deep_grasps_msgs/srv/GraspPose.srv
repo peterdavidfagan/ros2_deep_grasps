@@ -1,0 +1,3 @@
+# no request params required
+---
+geometry_msgs/PoseStamped[] grasps

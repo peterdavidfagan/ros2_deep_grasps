@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'ros2_deep_grasps'
+package_name = 'ros2_deep_grasps_components'
 
 setup(
  name=package_name,
